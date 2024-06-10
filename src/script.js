@@ -44,18 +44,19 @@ document.addEventListener("DOMContentLoaded", () => {
   let selectedIndex = -1;
 
   // link
-  const books = [
+const books = [
     { title: "The Priest of Corruption", link: "list.html" },
     { title: "The Demon Prince Goes tp the Academy", link: "C-DPA-I.html" },
-    { title: "Modern Villainess: It’s Not Easy Building a Corporate Empire Before the Crash - Volume 01", link: "M-I-1.html" },
-    { title: "Modern Villainess: It’s Not Easy Building a Corporate Empire Before the Crash - Volume 02", link: "M-I-2.html" },
-    { title: "Modern Villainess: It’s Not Easy Building a Corporate Empire Before the Crash - Volume 03", link: "M-I-3.html" },
-    { title: "Modern Villainess: It’s Not Easy Building a Corporate Empire Before the Crash - Volume 04", link: "M-I-4.html" },
-    { title: "The Vexations of a Shut-In Vampire Princess - Volume 04", link: "../hikikomari/TOC.html" },
-    { title: "modern vilains", link: "../modern/TOC-modern.html" },
-    { title: "The Anggel Next Door", link: "../Aggel/TOC_anggel.html" },
+    { title: "Modern Villainess: It’s Not Easy Building a Corporate Empire Before the Crash - Volume 01", link: "Modern Vilain/M-I-1.html" },
+    { title: "Modern Villainess: It’s Not Easy Building a Corporate Empire Before the Crash - Volume 02", link: "Modern Vilain/M-I-2.html" },
+    { title: "Modern Villainess: It’s Not Easy Building a Corporate Empire Before the Crash - Volume 03", link: "Modern Vilain/M-I-3.html" },
+    { title: "Modern Villainess: It’s Not Easy Building a Corporate Empire Before the Crash - Volume 04", link: "Modern Vilain/M-I-4.html" },
+    { title: "The Demon Prince Goes to the Academy", link: "Demon prince/DPA-C-I.html" },
+    { title: "The Angel Next Door Spoils Me Rotten", link: "Academy’s Physicist/TMAP-I-1.html" },
+    { title: "I Am This Murim’s Crazy B*tch", link: "Murim’s Crazy/IAMB-I-1.html" },
     //link end
   ];
+
 
   searchInput.addEventListener("input", () => {
     const query = searchInput.value.toLowerCase();
